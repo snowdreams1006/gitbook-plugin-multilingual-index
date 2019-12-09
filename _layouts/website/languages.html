@@ -6,7 +6,7 @@
     {{ super() }}
 {% endif %}
 {% if config.pluginsConfig['multilingual-index'].index %}
-    {% include "./index.html" %}
+	{% include "website/index_generated.html" %}
 {% endif %}
 
 {% endblock %}
