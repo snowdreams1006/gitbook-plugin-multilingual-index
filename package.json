@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-multilingual-index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "multilingual-index is the gitbook plugin for customizing multilingual home pages",
   "main": "index.js",
   "engines": {
