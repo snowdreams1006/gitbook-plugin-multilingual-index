@@ -64,6 +64,9 @@
             "owner": "snowdreams1006",
             "admin": ["snowdreams1006"],
             "distractionFreeMode": false
+        },
+        "multilingual-index": {
+            "index": "README.md"
         }
     }
 }
