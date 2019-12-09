@@ -1,0 +1,14 @@
+{
+    "title": "favicon-absolute 插件官方简单示例",
+    "author": "snowdreams1006",
+    "description": "gitbook-plugin-favicon-absolute 插件官方简单示例",
+    "plugins": [
+        "favicon-absolute"
+    ],
+    "pluginsConfig":{
+        "favicon-absolute":{
+            "favicon": "favicon.ico",
+            "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png"
+        }
+    }
+}

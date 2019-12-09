@@ -1,0 +1,73 @@
+{
+  "name": "gitbook-plugin-favicon-absolute",
+  "version": "0.1.1",
+  "description": "favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "favicon": {
+        "type": "string",
+        "required": true,
+        "default": "/favicon.ico",
+        "title": "网页图标",
+        "description": "网页打开时显示图标"
+      },
+      "bookmark": {
+        "type": "string",
+        "required": false,
+        "title": "收藏夹图标",
+        "description": "网页被收藏时显示图标"
+      },
+      "appleTouchIcon152": {
+        "type": "string",
+        "required": false,
+        "title": "Apple 设备152*152触摸图标",
+        "description": "Apple 设备触摸时152*152触摸显示图标"
+      },
+      "appleTouchIconPrecomposed152": {
+        "type": "string",
+        "required": true,
+        "default": "/apple-touch-icon-precomposed-152.png",
+        "title": "Apple 设备152*152触摸高亮图标",
+        "description": "Apple 设备触摸时152*152高亮显示图标"
+      },
+      "appleTouchIconMore": {
+        "type": "object",
+        "required": false,
+        "title": "Apple 设备自定义尺寸触摸图标",
+        "description": "Apple 设备触摸时自定义尺寸触摸显示图标"
+      },
+      "appleTouchIconPrecomposedMore": {
+        "type": "object",
+        "required": false,
+        "title": "Apple 设备自定义尺寸触摸高亮图标",
+        "description": "Apple 设备触摸时自定义尺寸高亮显示图标"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute.git"
+  },
+  "keywords": [
+    "gitbook-plugin-favicon-absolute",
+    "favicon",
+    "absolute",
+    "apple-touch-icon",
+    "shortcut",
+    "icon",
+    "bookmark"
+  ],
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute/issues"
+  },
+  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-favicon-absolute/"
+}
