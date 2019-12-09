@@ -66,6 +66,7 @@
             "distractionFreeMode": false
         },
         "multilingual-index": {
+            "enableSuper": false,
             "index": "README.md"
         }
     }
