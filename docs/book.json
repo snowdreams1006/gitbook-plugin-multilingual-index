@@ -67,7 +67,7 @@
         },
         "multilingual-index": {
             "enableSuper": false,
-            "index": "README.md"
+            "index": "index.html"
         }
     }
 }
