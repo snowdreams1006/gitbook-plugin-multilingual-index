@@ -10,7 +10,12 @@
 [![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
+- [中文](zh/)
+
 > multilingual-index 是自定义多语言主页的 Gitbook 插件
+
+- [English](en/)
+
 > multilingual-index is the gitbook plugin for customizing multilingual home pages
 
 ## 主页 | Homepage
@@ -38,6 +43,11 @@
     }
 }
 ```
+
+## 文档 | Document
+
+- [中文](zh/)
+- [English](en/)
 
 ## 示例 | Example
 
