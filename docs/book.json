@@ -67,7 +67,7 @@
         },
         "multilingual-index": {
             "enableSuper": false,
-            "index": "../../snowdreams1006.github.io/index.html"
+            "index":"index.html"
         }
     }
 }
