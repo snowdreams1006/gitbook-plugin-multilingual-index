@@ -3,10 +3,27 @@
 {% block body %}
 
 {% if config.pluginsConfig['multilingual-index'].enableSuper %}
-    {{ super() }}
-{% endif %}
-{% if config.pluginsConfig['multilingual-index'].index %}
-	{% include "website/index_generated.html" %}
+<div class="book-langs-index" role="navigation">
+    <div class="inner">
+        <h3>{{ "LANGS_CHOOSE"|t }}</h3>
+
+        <ul class="languages">
+        {%  for lang in languages.list %}
+            <li>
+                <a href="{{ (lang.id + "/README.md")|contentURL }}">{{ lang.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {% if config.pluginsConfig['multilingual-index'].index %}
+			{% include "website/index_generated.html" %}
+		{% endif %}
+    </div>
+</div>
+{% else %}
+	{% if config.pluginsConfig['multilingual-index'].index %}
+		{% include "website/index_generated.html" %}
+	{% endif %}
 {% endif %}
 
 {% endblock %}

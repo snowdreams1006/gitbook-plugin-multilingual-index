@@ -17,6 +17,21 @@
     "i18n",
     "index"
   ],
+  "gitbook": {
+    "properties": {
+      "enableSuper": {
+        "type": "boolean",
+        "title": "inherit from super",
+        "required": false,
+        "default": true
+      },
+      "index": {
+        "type": "string",
+        "title": "default index path",
+        "required": false
+      }
+    }
+  },
   "author": {
     "name": "snowdreams1006",
     "email": "snowdreams1006@163.com"

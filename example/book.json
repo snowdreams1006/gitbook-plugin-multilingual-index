@@ -3,7 +3,7 @@
     "author": "snowdreams1006",
     "description": "gitbook-plugin-favicon-absolute 插件官方简单示例",
     "plugins": [
-        "favicon-absolute"
+        "multilingual-index"
     ],
     "pluginsConfig":{
         "favicon-absolute":{
