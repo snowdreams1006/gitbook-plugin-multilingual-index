@@ -15,7 +15,8 @@
         "edit-link",
         "readmore",
         "copyright",
-        "mygitalk"
+        "mygitalk",
+        "multilingual-index"
     ],
     "pluginsConfig": {
         "favicon-absolute": {
