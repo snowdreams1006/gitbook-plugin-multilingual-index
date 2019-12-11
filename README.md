@@ -28,7 +28,7 @@
 
 ## 截图 | Screenshot
 
-![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
+![multilingual-index-use-preview.png](https://tva1.sinaimg.cn/large/006tNbRwly1g9rcw96zfyj31z40ogtdb.jpg)
 
 ## 用法 | Usage
 
