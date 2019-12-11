@@ -79,7 +79,7 @@ npm install gitbook-plugin-multilingual-index
 gitbook serve
 ```
 
-## 例
+## 示例
 
 - 官方文档配置文件
 
