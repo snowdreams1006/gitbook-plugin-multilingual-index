@@ -1,4 +1,4 @@
-# 欢迎访问 gitbook-plugin-multilingual-index 官网 👋
+# Welcome to gitbook-plugin-multilingual-index 👋
 
 [![npm:version](https://img.shields.io/npm/v/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
 [![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
@@ -7,179 +7,163 @@
 [![github:maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/graphs/commit-activity)
 [![npm:license](https://img.shields.io/npm/l/gitbook-plugin-multilingual-index.svg)](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/LICENSE)
 [![github:snodreams1006](https://img.shields.io/badge/github-snowdreams1006-brightgreen.svg)](https://github.com/snowdreams1006)
+[![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
-> favicon-absolute 插件采用绝对路径设置网站 favicon 图标,相对于相对路径来说更加简单方便.
+> customize multilingual home pages
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
+### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
 
 - Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
+- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
 - Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
-- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
 
-## 效果
+## Screenshot
 
-![favicon-absolute-use-preview.png](favicon-absolute-use-preview.png)
+![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
 
-## 用法
+## Usage
 
-### Step #1 - 更新 `book.json` 配置文件
+### Step #1 - Update `book.json` file
 
-1. 在 `book.json` 配置文件中,添加 `favicon-absolute` 到 `plugins` 列表.
-2. 在 `book.json` 配置文件中,配置 `pluginsConfig` 节点的 `favicon-absolute` 对象.
+1. In you gitbook's `book.json` file, add `multilingual-index` to `plugins` list.
+2. In `pluginsConfig`, Set `enableSuper` as `false` to disable default home page,and add `index` value to customize multilingual home pages. Only relative paths are supported.
+
+Here is simplest example :
 
 ```json
 {
-    "plugins": ["favicon-absolute"],
+    "plugins": ["multilingual-index"],
     "pluginsConfig": {
-      "favicon-absolute":{
-            "favicon": "/favicon.ico",
-            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
         }
     }
 }
 ```
 
-其中,配置参数含义如下: 
+Please refer to the following configuration item for more details : 
 
 ```json
-"favicon": {
-  "type": "string",
-  "required": true,
-  "default": "/favicon.ico",
-  "title": "网页图标",
-  "description": "网页打开时显示图标"
-},
-"bookmark": {
-  "type": "string",
+"enableSuper": {
+  "type": "boolean",
+  "title": "inherit from super",
   "required": false,
-  "title": "收藏夹图标",
-  "description": "网页被收藏时显示图标"
+  "default": true
 },
-"appleTouchIcon152": {
+"index": {
   "type": "string",
-  "required": false,
-  "title": "Apple 设备152*152触摸图标",
-  "description": "Apple 设备触摸时152*152触摸显示图标"
-},
-"appleTouchIconPrecomposed152": {
-  "type": "string",
-  "required": true,
-  "default": "/apple-touch-icon-precomposed-152.png",
-  "title": "Apple 设备152*152触摸高亮图标",
-  "description": "Apple 设备触摸时152*152高亮显示图标"
-},
-"appleTouchIconMore": {
-  "type": "object",
-  "required": false,
-  "title": "Apple 设备自定义尺寸触摸图标",
-  "description": "Apple 设备触摸时自定义尺寸触摸显示图标"
-},
-"appleTouchIconPrecomposedMore": {
-  "type": "object",
-  "required": false,
-  "title": "Apple 设备自定义尺寸触摸高亮图标",
-  "description": "Apple 设备触摸时自定义尺寸高亮显示图标"
+  "title": "default index path",
+  "required": false
 }
 ```
 
-> 上述图标位置建议直接放在**根目录**下,这样就会以**绝对路径**形式访问,解决相对路径可能设置无效的问题.
+### Step #2 - gitbook commands
 
-### Step #2 - 运行 gitbook 相关命令
-
-- 运行 `gitbook install` 命令安装到本地项目
+1. Run `gitbook install`. It will automatically install `multilingual-index` gitbook plugin for your book. This is needed only once.
 
 ```bash
-$ gitbook install
+gitbook install
 ```
 
-或者
+or you can run `npm install gitbook-plugin-multilingual-index` to install locally.
 
 ```bash
 npm install gitbook-plugin-multilingual-index
 ```
 
-- 运行 `gitbook build` 命令构建本地项目或者 `gitbook serve` 启动本地服务.
+2. Build your book (`gitbook build`) or serve (`gitbook serve`) as usual.
 
 ```bash
-$ gitbook build
+gitbook serve
 ```
 
-或者
+## Example
 
-```bash
-$ gitbook serve
-```
+- Official documentation configuration file
 
-## 示例
-
-不仅 [gitbook-plugin-multilingual-index](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index) **官方文档**已整合 `favicon-absolute` 版权保护插件,此外还提供了示例项目,详情参考 `example` 目录.
-
-- [官方文档](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/tree/master/docs)
+> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json)
 
 ```json
 {
-    "title": "favicon-absolute 插件官方文档",
-    "author": "snowdreams1006",
-    "description": "gitbook-plugin-multilingual-index 插件官方文档",
-    "plugins": [
-        "favicon-absolute"
-    ],
+    "plugins": ["multilingual-index"],
     "pluginsConfig": {
-      "favicon-absolute":{
-            "favicon": "/favicon.ico",
-            "bookmark": "/bookmark.ico",
-            "appleTouchIcon152": "/apple-touch-icon-152.png",
-            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png",
-            "appleTouchIconMore": {
-                "120x120": "/apple-touch-icon-120.png",
-                "180x180": "/apple-touch-icon-180.png"
-            },
-            "appleTouchIconPrecomposedMore": {
-                "120x120": "/apple-touch-icon-precomposed-120.png",
-                "180x180": "/apple-touch-icon-precomposed-180.png"
-            }
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
         }
     }
 }
 ```
 
-- [官方示例](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/tree/master/example)
+![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
 
+- Official example configuration file
+
+> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json)
 
 ```json
 {
-    "title": "favicon-absolute 插件官方简单示例",
-    "author": "snowdreams1006",
-    "description": "gitbook-plugin-multilingual-index 插件官方简单示例",
-    "plugins": [
-        "favicon-absolute"
-    ],
-    "pluginsConfig":{
-        "favicon-absolute":{
-            "favicon": "favicon.ico",
-            "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png"
+    "plugins": ["multilingual-index"],
+    "pluginsConfig": {
+        "multilingual-index": {
+            "enableSuper": true,
+            "index":"index.html"
         }
     }
 }
 ```
 
-## 作者
+![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
+
+### Sample `book.json` file with inheriting the default home page 
+
+```json
+{
+   "plugins": ["multilingual-index"],
+    "pluginsConfig": {
+        "multilingual-index": {
+            "enableSuper": true,
+            "index":"index.html"
+        }
+    }
+}
+```
+
+### Sample `book.json` file without inheriting the default home page 
+
+```json
+{
+    "plugins": ["multilingual-index"],
+    "pluginsConfig": {
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
+        }
+    }
+}
+```
+
+## Author
 
 👤 **snowdreams1006**
 
+- Website: [snowdreams1006.tech](https://snowdreams1006.tech/)
 - Github: [@snowdreams1006](https://github.com/snowdreams1006)
 - Email: [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
 
-## 🤝 贡献
+## Contributing
 
-如果你想贡献自己的一份力量,欢迎提交 [`Issues`](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues) 或者 `Pull Request` 请求!
+Contributions, issues and feature requests are welcome!
 
-## 支持
+Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues).
 
-如果本项目对你有所帮助,欢迎 ⭐️ [gitbook-plugin-multilingual-index](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index) 项目,感谢你的支持与认可!
+## Show your support
 
-## 📝 版权
+Give a **[Star](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index)** if this project helped you!
+
+## Copyright
 
 Copyright © 2019 [snowdreams1006](https://github.com/snowdreams1006).
 

@@ -1,14 +1,20 @@
 {
-    "title": "favicon-absolute 插件官方简单示例",
+    "title": "multilingual-index example",
     "author": "snowdreams1006",
-    "description": "gitbook-plugin-favicon-absolute 插件官方简单示例",
+    "description": "gitbook-plugin-multilingual-index example",
+    "gitbook": "3.2.3",
+    "links": {
+        "sidebar": {
+            "blog": "https://snowdreams1006.tech/"
+        }
+    },
     "plugins": [
         "multilingual-index"
     ],
-    "pluginsConfig":{
-        "favicon-absolute":{
-            "favicon": "favicon.ico",
-            "appleTouchIconPrecomposed152": "apple-touch-icon-precomposed-152.png"
+    "pluginsConfig": {
+        "multilingual-index": {
+            "enableSuper": true,
+            "index":"index.html"
         }
     }
 }

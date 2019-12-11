@@ -97,6 +97,8 @@ gitbook serve
 }
 ```
 
+![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
+
 - Official example configuration file
 
 > [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json)
@@ -112,6 +114,8 @@ gitbook serve
     }
 }
 ```
+
+![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
 
 ### Sample `book.json` file with inheriting the default home page 
 
