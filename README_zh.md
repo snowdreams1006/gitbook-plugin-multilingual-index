@@ -1,4 +1,4 @@
-# Welcome to gitbook-plugin-multilingual-index 👋
+# 欢迎访问 gitbook-plugin-multilingual-index 官网 👋
 
 [![npm:version](https://img.shields.io/npm/v/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
 [![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
@@ -15,7 +15,7 @@
 ### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
 
 - GitHub： [https](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/) : [//snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
+- Gitlab ： [https](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/) ://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/
 - Gitee： [https](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/) ://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/
 
 ## 屏幕截图
