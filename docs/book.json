@@ -1,17 +1,17 @@
 {
-    "title": "favicon-absolute 插件官方文档",
+    "title": "multilingual-index docs",
     "author": "snowdreams1006",
-    "description": "gitbook-plugin-favicon-absolute 插件官方文档",
+    "description": "gitbook-plugin-multilingual-index docs",
     "gitbook": "3.2.3",
     "links": {
         "sidebar": {
-            "snowdreams1006": "https://snowdreams1006.github.io/"
+            "blog": "https://snowdreams1006.tech/"
         }
     },
     "plugins": [
         "favicon-absolute",
         "github-buttons",
-        "edit-link",
+        "edit-link-plus",
         "readmore",
         "copyright",
         "mygitalk",
@@ -40,9 +40,14 @@
                 "size": "small"
             }]
         },
-        "edit-link": {
-            "base": "https://github.com/snowdreams1006/gitbook-plugin-readmore/blob/master",
-            "label": "编辑本页"
+        "edit-link-plus": {
+            "base": {
+              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
+              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
+              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs"
+            },
+            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
+            "label": "Edit This Page"
         },
         "readmore": {
             "blogId": "15702-1569305559839-744",
@@ -51,7 +56,7 @@
             "keyword": "vip"
         },
         "copyright": {
-            "site": "https://snowdreams1006.github.io/gitbook-plugin-readmore",
+            "site": "https://snowdreams1006.github.io/gitbook-plugin-multilingual-index",
             "author": "雪之梦技术驿站",
             "website": "雪之梦技术驿站",
             "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"
@@ -59,7 +64,7 @@
         "mygitalk": {
             "clientID": "3f62415a283d19cbd696",
             "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
-            "repo": "gitbook-plugin-readmore",
+            "repo": "gitbook-plugin-multilingual-index",
             "owner": "snowdreams1006",
             "admin": ["snowdreams1006"],
             "distractionFreeMode": false
