@@ -1,4 +1,4 @@
-# Welcome to gitbook-plugin-multilingual-index 👋
+# 欢迎访问 gitbook-plugin-multilingual-index 官网 👋
 
 [![npm:version](https://img.shields.io/npm/v/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
 [![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-multilingual-index.svg)](https://www.npmjs.com/package/gitbook-plugin-multilingual-index)
@@ -10,26 +10,26 @@
 [![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
-> customize multilingual home pages
+> 自定义多语言主页
 
-### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
+### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
 
 - Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
 - GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
 - Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
 
-## Screenshot
+## 屏幕截图
 
 ![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
 
-## Usage
+## 用法
 
-### Step #1 - Update `book.json` file
+### 步骤＃1 - 更新 `book.json` 文件
 
-1. In you gitbook's `book.json` file, add `multilingual-index` to `plugins` list.
-2. In `pluginsConfig`, Set `enableSuper` as `false` to disable default home page,and add `index` value to customize multilingual home pages. Only relative paths are supported.
+1. 在您的gitbook的 `book.json` 文件中，将 `multilingual-index` 添加到 `plugins` 列表中。
+2. 在 `pluginsConfig` ，将 `enableSuper` 设置为 `false` 可禁用默认主页，并添加 `index`值以自定义多语言主页。仅支持相对路径。
 
-Here is simplest example :
+这是最简单的示例：
 
 ```json
 {
@@ -43,7 +43,7 @@ Here is simplest example :
 }
 ```
 
-Please refer to the following configuration item for more details : 
+有关更多详细信息，请参考以下配置项：
 
 ```json
 "enableSuper": {
@@ -59,29 +59,29 @@ Please refer to the following configuration item for more details :
 }
 ```
 
-### Step #2 - gitbook commands
+### 步骤＃2 - gitbook命令
 
-1. Run `gitbook install`. It will automatically install `multilingual-index` gitbook plugin for your book. This is needed only once.
+1. 运行 `gitbook install` 。它将自动为您的 Gitbook 安装 `multilingual-index` gitbook 插件。仅需要一次。
 
 ```bash
 gitbook install
 ```
 
-or you can run `npm install gitbook-plugin-multilingual-index` to install locally.
+或者您可以运行 `npm install gitbook-plugin-multilingual-index` 来本地安装。
 
 ```bash
 npm install gitbook-plugin-multilingual-index
 ```
 
-2. Build your book (`gitbook build`) or serve (`gitbook serve`) as usual.
+1. 像往常一样构建您的书（ `gitbook build` ）或服务（ `gitbook serve` ）。
 
 ```bash
 gitbook serve
 ```
 
-## Example
+## 例
 
-- Official documentation configuration file
+- 官方文档配置文件
 
 > [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json)
 
@@ -99,7 +99,7 @@ gitbook serve
 
 ![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
 
-- Official example configuration file
+- 官方示例配置文件
 
 > [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json)
 
@@ -117,7 +117,7 @@ gitbook serve
 
 ![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
 
-### Sample `book.json` file with inheriting the default home page 
+### 继承默认主页的示例 `book.json` 文件
 
 ```json
 {
@@ -131,7 +131,7 @@ gitbook serve
 }
 ```
 
-### Sample `book.json` file without inheriting the default home page 
+### 不继承默认主页的示例 `book.json` 文件
 
 ```json
 {
@@ -145,26 +145,26 @@ gitbook serve
 }
 ```
 
-## Author
+## 作者
 
 👤 **snowdreams1006**
 
-- Website: [snowdreams1006.tech](https://snowdreams1006.tech/)
-- Github: [@snowdreams1006](https://github.com/snowdreams1006)
-- Email: [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
+- 网站： [snowdreams1006.tech](https://snowdreams1006.tech/)
+- [GitHub](https://github.com/snowdreams1006) ： [@ snowdreams1006](https://github.com/snowdreams1006)
+- 电子邮件： [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
 
-## Contributing
+## 贡献
 
-Contributions, issues and feature requests are welcome!
+欢迎提供文稿，问题和功能请求！
 
-Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues).
+随时检查[问题页面](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues) 。
 
-## Show your support
+## 表示支持
 
-Give a **[Star](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index)** if this project helped you!
+如果这个项目对您有帮助，请给个**[星星](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index)** ！
 
-## Copyright
+## 版权
 
-Copyright © 2019 [snowdreams1006](https://github.com/snowdreams1006).
+版权所有©2019 [snowdreams1006](https://github.com/snowdreams1006) 。
 
-This project is [MIT](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/LICENSE) licensed.
+该项目是[MIT](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/LICENSE)许可的。

@@ -12,11 +12,13 @@
 
 > 自定义多语言主页
 
+[中文](./README_zh.md) | [English](./README.md)
+
 ### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
 
-- GitHub： [https](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/) : [//snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-- Gitlab ： [https](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/) ://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/
-- Gitee： [https](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/) ://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/
+- Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
+- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
+- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
 
 ## 屏幕截图
 
@@ -24,10 +26,10 @@
 
 ## 用法
 
-### 步骤＃1-更新`book.json`文件
+### 步骤＃1 - 更新 `book.json` 文件
 
-1. 在您的gitbook的`book.json`文件中，将`multilingual-index`添加到`plugins`列表中。
-2. 在`pluginsConfig` ，将`enableSuper`设置为`false`可禁用默认主页，并添加`index`值以自定义多语言主页。仅支持相对路径。
+1. 在您的gitbook的 `book.json` 文件中，将 `multilingual-index` 添加到 `plugins` 列表中。
+2. 在 `pluginsConfig` ，将 `enableSuper` 设置为 `false` 可禁用默认主页，并添加 `index`值以自定义多语言主页。仅支持相对路径。
 
 这是最简单的示例：
 
@@ -59,15 +61,15 @@
 }
 ```
 
-### 步骤＃2-gitbook命令
+### 步骤＃2 - gitbook命令
 
-1. 运行`gitbook install` 。它将自动为您的书安装`multilingual-index` gitbook插件。仅需要一次。
+1. 运行 `gitbook install` 。它将自动为您的 Gitbook 安装 `multilingual-index` gitbook 插件。仅需要一次。
 
 ```bash
 gitbook install
 ```
 
-或者您可以运行`npm install gitbook-plugin-multilingual-index`来本地安装。
+或者您可以运行 `npm install gitbook-plugin-multilingual-index` 来本地安装。
 
 ```bash
 npm install gitbook-plugin-multilingual-index
@@ -117,7 +119,7 @@ gitbook serve
 
 ![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
 
-### 继承默认主页的示例`book.json`文件
+### 继承默认主页的示例 `book.json` 文件
 
 ```json
 {
@@ -131,7 +133,7 @@ gitbook serve
 }
 ```
 
-### 示例`book.json`文件，但不继承默认主页
+### 不继承默认主页的示例 `book.json` 文件
 
 ```json
 {
@@ -147,7 +149,7 @@ gitbook serve
 
 ## 作者
 
-100 **snowdreams1006**
+👤 **snowdreams1006**
 
 - 网站： [snowdreams1006.tech](https://snowdreams1006.tech/)
 - [GitHub](https://github.com/snowdreams1006) ： [@ snowdreams1006](https://github.com/snowdreams1006)

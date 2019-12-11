@@ -12,6 +12,8 @@
 
 > customize multilingual home pages
 
+[English](./README.md) | [中文](./README_zh.md)
+
 ### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
 
 - Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
