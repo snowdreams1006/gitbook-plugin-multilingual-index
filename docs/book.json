@@ -11,7 +11,6 @@
     "plugins": [
         "last-update-time",
         "favicon-absolute",
-        "readmore",
         "copyright",
         "multilingual-index",
         "icp"
