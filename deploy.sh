@@ -1,20 +1,42 @@
 #! /bin/bash
 
-# # prepare for generate docs
-# cd docs
+# copy info
+cp -rf README.md docs/en/
+cp -rf README_zh.md docs/zh/
 
-# # re-generate docs
-# rm -rf _book/ && gitbook build
+cp -rf README.md example/
+cp -rf docs/SUMMARY.md example/
 
-# # copy to docs
-# cp -rf _book/ .
+# status latest
+git status
 
-# # prepare for push 
-# cd ..
+# pull latest 
+git pull
+
+# add commits
+git add .
+# commit 
+git commit -m "auto update"
+# push to github and others
+git push
+
+# prepare for generate docs
+cd docs
+
+# re-generate docs
+rm -rf _book/ && gitbook build
+# copy to docs
+cp -rf _book/* ./
+
+# prepare for push 
+cd ..
 
 # add commits
 git add .
 # commit 
 git commit -m "auto deploy website"
 # push to github and others
-git push origin master
+git push
+
+# status latest 
+git status
