@@ -12,7 +12,7 @@
 
 > customize multilingual home pages
 
-[English](./en) | [中文](./zh)
+[English](/en) | [中文](/zh)
 
 ## Usage
 

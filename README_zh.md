@@ -12,7 +12,7 @@
 
 > 自定义多语言主页
 
-[中文](./README_zh.md) | [English](./README.md)
+[中文](/zh) | [English](/en)
 
 ## 用法
 
