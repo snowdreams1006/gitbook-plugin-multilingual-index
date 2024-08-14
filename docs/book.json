@@ -9,13 +9,12 @@
         }
     },
     "plugins": [
+        "last-update-time",
         "favicon-absolute",
-        "github-buttons",
-        "edit-link-plus",
         "readmore",
         "copyright",
-        "mygitalk",
-        "multilingual-index"
+        "multilingual-index",
+        "icp"
     ],
     "pluginsConfig": {
         "favicon-absolute": {
@@ -32,23 +31,6 @@
                 "180x180": "/apple-touch-icon-precomposed-180.png"
             }
         },
-        "github-buttons": {
-            "buttons": [{
-                "user": "snowdreams1006",
-                "repo": "gitbook-plugin-readmore",
-                "type": "star",
-                "size": "small"
-            }]
-        },
-        "edit-link-plus": {
-            "base": {
-              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
-              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
-              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/edit/master/docs",
-            "label": "Edit This Page"
-        },
         "readmore": {
             "blogId": "15702-1569305559839-744",
             "name": "雪之梦技术驿站",
@@ -61,17 +43,14 @@
             "website": "雪之梦技术驿站",
             "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"
         },
-        "mygitalk": {
-            "clientID": "3f62415a283d19cbd696",
-            "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
-            "repo": "gitbook-plugin-multilingual-index",
-            "owner": "snowdreams1006",
-            "admin": ["snowdreams1006"],
-            "distractionFreeMode": false
-        },
         "multilingual-index": {
             "enableSuper": false,
             "index":"index.html"
+        },
+        "icp": {
+            "label": "&copy snowdreams1006 版权所有",
+            "number": "浙ICP备18042346号",
+            "link": "https://beian.miit.gov.cn/"
         }
     }
 }

@@ -14,12 +14,6 @@
 
 [English](./README.md) | [中文](./README_zh.md)
 
-### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
-
 ## Screenshot
 
 ![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
@@ -160,6 +154,8 @@ gitbook serve
 Contributions, issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues).
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## Show your support
 
