@@ -12,15 +12,7 @@
 
 > 自定义多语言主页
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
-
-## 屏幕截图
-
-![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
+[中文](./README_zh.md) | [English](./README.md)
 
 ## 用法
 
@@ -79,72 +71,6 @@ npm install gitbook-plugin-multilingual-index
 gitbook serve
 ```
 
-## 示例
-
-- 官方文档配置文件
-
-> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json)
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": false,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
-
-- 官方示例配置文件
-
-> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json)
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": true,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
-
-### 继承默认主页的示例 `book.json` 文件
-
-```json
-{
-   "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": true,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-### 不继承默认主页的示例 `book.json` 文件
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": false,
-            "index":"index.html"
-        }
-    }
-}
-```
-
 ## 作者
 
 👤 **snowdreams1006**
@@ -162,6 +88,8 @@ gitbook serve
 ## 表示支持
 
 如果这个项目对您有帮助，请给个**[星星](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index)** ！
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## 版权
 

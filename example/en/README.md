@@ -12,15 +12,7 @@
 
 > customize multilingual home pages
 
-### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/)
-- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitlab.io/gitbook-plugin-multilingual-index/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/](https://snowdreams1006.gitee.io/gitbook-plugin-multilingual-index/)
-
-## Screenshot
-
-![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
+[English](./README.md) | [中文](./README_zh.md)
 
 ## Usage
 
@@ -79,72 +71,6 @@ npm install gitbook-plugin-multilingual-index
 gitbook serve
 ```
 
-## Example
-
-- Official documentation configuration file
-
-> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/docs/book.json)
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": false,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-![multilingual-index-use-preview.png](multilingual-index-use-preview.png)
-
-- Official example configuration file
-
-> [https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/blob/master/example/book.json)
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": true,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-![multilingual-index-example-preview.png](multilingual-index-example-preview.png)
-
-### Sample `book.json` file with inheriting the default home page 
-
-```json
-{
-   "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": true,
-            "index":"index.html"
-        }
-    }
-}
-```
-
-### Sample `book.json` file without inheriting the default home page 
-
-```json
-{
-    "plugins": ["multilingual-index"],
-    "pluginsConfig": {
-        "multilingual-index": {
-            "enableSuper": false,
-            "index":"index.html"
-        }
-    }
-}
-```
-
 ## Author
 
 👤 **snowdreams1006**
@@ -159,9 +85,13 @@ Contributions, issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues).
 
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
+
 ## Show your support
 
 Give a **[Star](https://github.com/snowdreams1006/gitbook-plugin-multilingual-index)** if this project helped you!
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## Copyright
 
