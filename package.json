@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/snowdreams1006/gitbook-plugin-multilingual-index/issues"
   },
-  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/"
+  "homepage": "https://snowdreams1006.github.io/gitbook-plugin-multilingual-index/",
+  "dependencies": {
+    "gitbook-plugin-multilingual-index": "^0.1.1"
+  }
 }
