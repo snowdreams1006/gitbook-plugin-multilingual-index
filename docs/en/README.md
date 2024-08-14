@@ -12,8 +12,6 @@
 
 > customize multilingual home pages
 
-[English](en/) | [中文](zh/)
-
 ## Usage
 
 ### Step #1 - Update `book.json` file
