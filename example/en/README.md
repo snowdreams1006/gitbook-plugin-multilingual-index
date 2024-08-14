@@ -12,7 +12,7 @@
 
 > customize multilingual home pages
 
-[English](./README.md) | [中文](./README_zh.md)
+[English](./en) | [中文](./zh)
 
 ## Usage
 
