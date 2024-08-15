@@ -1,7 +1,6 @@
 # Summary
 
 * [插件官网](README.md)
-* [gitbook 官方文档](https://snowdreams1006.github.io/gitbook-official/)
 * [gitbook 留言评论](https://snowdreams1006.github.io/gitbook-plugin-mygitalk/)
 * [gitbook 阅读更多](https://snowdreams1006.github.io/gitbook-plugin-readmore/)
 * [gitbook 版权保护](https://snowdreams1006.github.io/gitbook-plugin-copyright/)
