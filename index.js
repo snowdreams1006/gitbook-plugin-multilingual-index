@@ -4,8 +4,6 @@ var path = require('path');
 module.exports = {
     hooks: {
         "finish": function() {
-            this.log.debug.ln('finish', this.options.pluginsConfig['multilingual-index']);
-
             var indexPath = this.options.pluginsConfig['multilingual-index'].index;
             if (indexPath) {
                 var indexAbsolutePath = path.join(process.cwd(), indexPath);
