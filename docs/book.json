@@ -12,8 +12,8 @@
         "last-update-time",
         "favicon-absolute",
         "copyright",
-        "multilingual-index",
-        "icp"
+        "icp",
+        "multilingual-index"
     ],
     "pluginsConfig": {
         "favicon-absolute": {
@@ -47,7 +47,7 @@
             "index":"index.html"
         },
         "icp": {
-            "label": "&copy snowdreams1006 版权所有",
+            "label": "&copy 雪之梦技术驿站版权所有",
             "number": "浙ICP备18042346号",
             "link": "https://beian.miit.gov.cn/"
         }
